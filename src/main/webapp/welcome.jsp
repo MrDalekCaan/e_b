@@ -60,42 +60,42 @@
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>成交金额</h3>
                                         <p>
-                                            <cite>6843.50元</cite></p>
+                                            <cite>6843.50</cite>元</p>
                                     </a>
                                 </li>
                                 <li class="layui-col-md2 layui-col-xs6">
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>留言</h3>
                                         <p>
-                                            <cite>368条</cite></p>
+                                            <cite>368</cite>条</p>
                                     </a>
                                 </li>
                                 <li class="layui-col-md2 layui-col-xs6">
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>订单</h3>
                                         <p>
-                                            <cite>5689笔</cite></p>
+                                            <cite>5689</cite>笔</p>
                                     </a>
                                 </li>
                                 <li class="layui-col-md2 layui-col-xs6">
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>通知</h3>
                                         <p>
-                                            <cite>125条</cite></p>
+                                            <cite>125</cite>条</p>
                                     </a>
                                 </li>
                                 <li class="layui-col-md2 layui-col-xs6">
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>待处理</h3>
                                         <p>
-                                            <cite>10条</cite></p>
+                                            <cite>10</cite>条</p>
                                     </a>
                                 </li>
                                 <li class="layui-col-md2 layui-col-xs6 ">
                                     <a href="javascript:;" class="x-admin-backlog-body">
                                         <h3>退款申请</h3>
                                         <p>
-                                            <cite>0条</cite></p>
+                                            <cite>0</cite>条</p>
                                     </a>
                                 </li>
                             </ul>

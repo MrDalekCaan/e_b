@@ -31,10 +31,7 @@ public class Cart {
 		this.number = number;
 	}
 	
-	public Cart() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	public Cart() { }
 	
 	public Cart(String gid, String uid, String pid, int number) {
 		super();
