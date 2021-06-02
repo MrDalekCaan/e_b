@@ -15,7 +15,7 @@
         <script type="text/javascript" src="<%=path%>/js/index.js"></script>
         <script src="<%=path%>/js/jquery.js"></script>
         <script src="<%=path%>/js/jquery.min.js"></script>
-        <script src="<%=path%>/js/survey.js"></script>
+        <script src="<%=path%>/js/survey.jsp"></script>
         <style>
             #FontScroll{
                 width: 100%;
@@ -385,5 +385,4 @@
         setInterval(getTime,1000);
     </script>
     <script src="<%=path%>/js/fontscroll.js"></script>
-
 </html>

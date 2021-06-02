@@ -7,19 +7,11 @@ import java.util.List;
 
 public interface UserService {
 
-    Boolean insert(User user);
-
-
-    Boolean insertAddress(Address address);
-
-
-
     // -----start 用户注册------
 
     /**
      * @param user 新用户
      * @return true or false 代表成功或失败
-     *
      */
     Boolean register(User user);
 
@@ -41,9 +33,15 @@ public interface UserService {
     /**
      * 获取所有的用户
      */
-    List<User> getAllUser();
+    List<User> getUsers();
+    List<User> getUsers(Integer offset, Integer row_count);
 
-    User getUserByUid(String uid);
+
+    /**
+     * 获取单个用户
+     * @return null:未找到用户, 如果找到就返回一个user
+     */
+    User findUserByUid(String uid);
 
 
     /**
@@ -52,11 +50,23 @@ public interface UserService {
      */
     Boolean deleteUser(String uid);
 
+
     /**
      * 修改user中的信息
      * @param user 根据user中的uid找到对应的user，然后修改信息
      */
     Boolean editUser(User user);
     // ----end 用户信息
+
+
+    // ----start 用户地址管理
+    Boolean addAddress(Address address);
+
+    Boolean editAddress(Address address);
+
+    Boolean deleteAddress(String aid);
+
+    List<Address> findAddressByUid(String uid);
+    //----end 用户地址管理
 
 }
